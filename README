@@ -1,0 +1,11 @@
+Implementation of Horizontal Swipe between pages(views) using ViewPager.
+The titles of pages also scroll as the page is scrolled similar to Google+.
+
+
+
+I have modified the source code of Jake Wharton's ViewPagerIndicator library.
+The original source code can be found at: https://github.com/StylingAndroid/ViewPager/tree/Part1
+In the original source, only the current page title scrolls along with the page scroll.
+I modified it to enable scrolling of all titles in synchronization with page scroll.
+
+For this, android support library is required. Download instructions are at http://developer.android.com/sdk/compatibility-library.html

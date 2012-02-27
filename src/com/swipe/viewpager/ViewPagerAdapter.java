@@ -12,9 +12,9 @@ public class ViewPagerAdapter extends PagerAdapter
 {
     private static String[] titles = new String[]
     {
-        "Page 1",
-        "Page 2",
+        "Page 1" ,"Page 2",
         "Page 3","Page 4"
+
     };
     private final Context context;
  

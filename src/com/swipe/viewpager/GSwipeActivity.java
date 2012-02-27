@@ -13,12 +13,10 @@ public class GSwipeActivity extends Activity {
 	    setContentView( R.layout.main );
 	 
 	    ViewPagerAdapter adapter = new ViewPagerAdapter( this );
-	    ViewPager pager =
-	        (ViewPager)findViewById( R.id.viewpager );
-	    TitlePageIndicator indicator =
-	        (TitlePageIndicator)findViewById( R.id.indicator );
+	    ViewPager pager =(ViewPager)findViewById( R.id.viewpager );
+	    TitlePageIndicator indicator = (TitlePageIndicator)findViewById( R.id.indicator );
 	    pager.setAdapter( adapter );
+	    pager.setCurrentItem(0);
 	    indicator.setViewPager( pager );
-	    
 	}
 }
