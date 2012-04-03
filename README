@@ -8,4 +8,4 @@ The original source code can be found at: https://github.com/StylingAndroid/View
 In the original source, only the current page title scrolls along with the page scroll.
 I modified it to enable scrolling of all titles in synchronization with page scroll.
 
-For this, android support library is required. Download instructions are at http://developer.android.com/sdk/compatibility-library.html
+For this, android support library is required. Download instructions can be found at http://developer.android.com/sdk/compatibility-library.html
